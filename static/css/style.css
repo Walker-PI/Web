@@ -1,0 +1,605 @@
+
+body{
+    background-color: #dbdde0;
+}
+
+header{
+    display: block;
+    margin-top: 0px;
+    position: static;
+    width: auto;
+    z-index: 10000;
+}
+
+div{
+    display:block;
+}
+
+.header .part-one{
+    height: 63px;
+    background-color: #333333;
+}
+
+.header .part-one .wpr{
+    width:90%;
+    position: relative;
+}
+
+.header .part-one .wpr .logo{
+    float:left;
+    margin-left: 10%;
+}
+
+.search{
+    float:left;
+    position:relative;
+    margin-top:17px;
+    margin-left:12%;
+    width:50%;
+    height:35px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#525362;
+}
+.search img{
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    margin-top: -8px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.4;
+}
+.search input{
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0);
+    color: #ffffff;
+    height: 100%;
+    width:100%;
+    padding-left: 10px;
+    padding-right: 30px;
+    border: none;
+}
+.search a{
+    width: 39px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.header .part-one .wpr .login_register{
+    float:right;
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.login_register img{
+    position: absolute;
+    right: 100%;
+    top: 20%;
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
+}
+
+.login_register span a{
+    top:50%;
+    color:#ffffff;
+    font-size: 18px;
+    line-height: 63px;
+    padding: 3px;
+    opacity:0.8;
+}
+
+.header .part-two{
+    background-color: #222222;
+    height:50px;
+    width:100%;
+    margin-bottom: 30px;
+}
+
+.header .part-two .wpr{
+    width:90%;
+    position: relative;
+}
+
+.header .part-two .wpr .menu{
+    float:left;
+    margin-left: 7.6%;
+
+    margin-top:0;
+    height:100%;
+    position: absolute;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end:1em;
+    margin-inline-start:0;
+    margin-inline-end:0;
+    padding-inline-start:40px;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 12px;
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+}
+
+.header .part-two .menu li{
+    float:left;
+}
+
+.header .part-two .menu .one.active{
+    border-bottom-color: #DC1720;
+}
+
+.header .part-two .menu li.active {
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    height: 46px;
+}
+
+.header .part-two .menu li.item{
+    background-color: #2a2a2a;
+    float: left;
+    display: block;
+    font-size: 18px;
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+
+    display: -moz-box;/*兼容Firefox*/
+    display: -webkit-box;/*兼容FSafari、Chrome*/
+
+    -moz-box-align: center;/*兼容Firefox*/
+    -webkit-box-align: center;/*兼容FSafari、Chrome */
+
+    -moz-box-pack: center;/*兼容Firefox*/
+    -webkit-box-pack: center;/*兼容FSafari、Chrome */
+}
+
+.header .part-two .menu li a{
+    color:#ffffff;
+    opacity: 0.6;
+}
+
+a:visited {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: inherit;
+    cursor: pointer;
+}
+
+a {
+    outline: 0;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+}
+
+.header .part-two li.active {
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+
+.header .part-two li.sep{
+    height:50px;
+    width:2px;
+}
+
+.header .part-one .wpr .login_register a:hover{
+    color:#FF6600;
+}
+
+.main-one{
+    width:90%;
+    height:700px;
+    margin-top:-20px ;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    background-color: #ffffff;
+}
+
+.main-one .col-left{
+    float:left;
+    width:20%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.main-one .col-left .total{
+    margin-block-start: 20%;
+    margin-left: 20%;
+}
+
+.main-one .col-left .total img{
+    width: 45px;
+    height: 36px;
+}
+
+.main-one .col-left .total span{
+    font-size: 40px;
+}
+
+.main-one .col-left ul li img{
+    float:left;
+}
+
+.main-one .col-left ul li span{
+    font-size: 30px;
+    display: block;
+    width:100%;
+    height:85px;
+    margin-left: -8%;
+    /*background-color: #e6e6e6;*/
+
+    display: -moz-box;/*兼容Firefox*/
+    display: -webkit-box;/*兼容FSafari、Chrome*/
+
+    -moz-box-align: center;/*兼容Firefox*/
+    -webkit-box-align: center;/*兼容FSafari、Chrome */
+
+}
+
+.main-one .col-left ul li  span img{
+    margin-left: 10%;
+    margin-block-start: 4%;
+    height:30px;
+    width:30px;
+}
+
+.main-one .col-left ul li.sep-block{
+    width:100%;
+    background-color: #e6e6e6;
+    height:2px;
+}
+
+.main-one .display-photo{
+    float:right;
+    width:70%;
+    margin-block-start: 1.5%;
+    margin-right: 5%;
+    height:92%;
+    background-color: #ffffff;
+}
+
+.main-one .display-photo .scroller{
+    width:100%;
+    margin-block-start: 2%;
+    height: 80%;
+}
+
+.main-one .display-photo .scroller img{
+    width:100%;
+    height:110%;
+}
+
+.main-one .display-photo ul{
+    width:100%;
+    height:30px;
+   margin-left: 40%;
+    margin-top:5%;
+
+}
+.main-one .display-photo ul li{
+    float:left;
+}
+
+.main-one .display-photo .ui-switchable-trigger {
+    display: inline-block;
+    cursor: pointer;
+    margin: 12px 4px 0;
+    width: 0;
+    height: 0;
+    border: 8px solid #E0E0E0;
+    border-radius: 5px;
+    color: transparent;
+}
+.main-one .display-photo .current {
+    position: relative;
+    border: 8px solid #F60;
+}
+
+.main-two{
+    width:90%;
+    height:700px;
+    margin-top:10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    background-color: #525362;
+}
+.main-two .player{
+    float:left;
+    display: -moz-box;/*兼容Firefox*/
+    display: -webkit-box;/*兼容FSafari、Chrome*/
+
+    -moz-box-align: center;/*兼容Firefox*/
+    -webkit-box-align: center;/*兼容FSafari、Chrome */
+
+    -moz-box-pack: center;/*兼容Firefox*/
+    -webkit-box-pack: center;/*兼容FSafari、Chrome */
+}
+
+
+.main-three{
+    width:90%;
+    height:2100px;
+    margin-top:10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    background-color: #ffffff;
+}
+
+.main-three .line{
+    width:95%;
+    height:650px;
+    margin-top:10px;
+    margin-left:3%;
+    margin-right:2%;
+    display: block;
+    background-color: white;
+}
+
+.main-three .line .left{
+    float:left;
+    width:50%;
+    margin-top:2%;
+}
+
+.main-three .line .right{
+    float:right;
+    width:50%;
+    margin-top:2%;
+}
+
+.main-three .line .left span{
+    display: block;
+    background-color: #E0E0E0;
+    width:91.5%;
+    height:20%;
+    margin-top:2%;
+}
+
+.main-three .line .right span{
+    display: block;
+    background-color: #E0E0E0;
+    width:91.5%;
+    height:50%;
+    margin-top:2%;
+}
+
+.main-three .line .item img{
+    width:91.5%;
+}
+
+footer {
+    display: block;
+    margin-top:30px;
+    background: #333;
+    padding-top: 28px;
+    padding-bottom: 20px;
+}
+
+footer span{
+    color:#E0E0E0;
+    display: -moz-box;/*兼容Firefox*/
+    display: -webkit-box;/*兼容FSafari、Chrome*/
+    font-size: 16px;
+    -moz-box-align: center;/*兼容Firefox*/
+    -webkit-box-align: center;/*兼容FSafari、Chrome */
+
+    -moz-box-pack: center;/*兼容Firefox*/
+    -webkit-box-pack: center;/*兼容FSafari、Chrome */
+}
+
+.login-page{
+    display: block;
+    width:100%;
+    height: 650px;
+    position: relative;
+}
+
+.login-page .wrap{
+    width:400px;
+    height:480px;
+    margin:50px auto;
+    border: 1px solid #8A8989;
+    background-color: #ffffff;
+}
+
+.login-page .wrap .login-header{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    background-color: #2a2a2a;
+    background-repeat: no-repeat;
+}
+
+.login-page .wrap .login-header h3{
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 30px;
+    margin-block-start: 1%;
+    color: #e6e6e6;
+}
+
+.login-page .wrap .login-header a{
+    display: inline-block;
+    line-height: 50px;
+    float: right;
+    margin:auto 15px;
+    margin-top:2%;
+}
+
+.login-page .wrap .login-main{
+    width:100%;
+    height:400px;
+    margin:0 auto;
+}
+
+.login-page .wrap .login-main .phoneIn{
+    float: right;
+    display: inline-block;
+    font-size: 16px;
+    color: blue;
+    background-repeat: no-repeat;
+    margin-top:30px;
+    margin-right:-10%;
+}
+
+.login-main .inputDiv{
+    display: inline-block;
+    float: left;
+    width:96%;
+    height: 40px;
+    font-size: 17px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:2%;
+    margin-right: 2%;
+}
+
+.login-main .pull-right{
+    display: inline-block;
+    float: right;
+    margin-right:2%;
+    color:blue;
+}
+
+.login-main .smBtn{
+    background-color:#2066c5;
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    height:50px;
+    border-radius:40px;
+}
+
+.smBtn:hover{
+    background:#4067ee;
+}
+
+a{
+    text-decoration: none;
+    color:#2647cb;
+}
+
+.login-main h4{
+    float: left;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top:8%;
+    margin-bottom: 0;
+}
+
+.register-page{
+    display: block;
+    width:100%;
+    height: 650px;
+    position: relative;
+}
+
+.register-page .wrapper{
+    width:400px;
+    height:500px;
+    margin:50px auto;
+    border: 1px solid #8A8989;
+    background-color: #ffffff;
+}
+
+.register-page .wrapper .register-header{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    background-color: #2a2a2a;
+    background-repeat: no-repeat;
+}
+
+.register-page .wrapper .register-header h3{
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 30px;
+    margin-block-start: 1%;
+    color: #e6e6e6;
+}
+
+.register-page .wrapper .register-header a{
+    display: inline-block;
+    line-height: 50px;
+    float: right;
+    margin:auto 15px;
+    margin-top:2%;
+}
+
+.register-page .wrapper .register-main{
+    width:100%;
+    height:400px;
+    margin:0 auto;
+}
+
+
+.register-main .inputDiv{
+    display: inline-block;
+    float: left;
+    width:96%;
+    height: 40px;
+    font-size: 17px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:2%;
+    margin-right: 2%;
+}
+
+.register-main .pull-right{
+    display: inline-block;
+    float: right;
+    margin-right:2%;
+    color:blue;
+}
+
+.register-main .smBtn{
+    background-color:#2066c5;
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    height:50px;
+    border-radius:40px;
+}
+
+.smBtn:hover{
+    background:#4067ee;
+}
+
+a{
+    text-decoration: none;
+    color:#2647cb;
+}
+
+.register-main h4{
+    float: left;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top:5%;
+    margin-bottom: 0;
+}
